@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light;
+
+  /*
+   * Colors as RGB channels so Tailwind opacity modifiers work
+   * (e.g. bg-paper/95). Change these to reskin a client.
+   */
+  --color-background: 239 228 203;
+  --color-background-light: 246 238 217;
+  --color-background-dark: 227 212 179;
+  --color-surface: 216 199 158;
+  --color-text: 29 25 22;
+  --color-text-soft: 44 38 32;
+  --color-text-faded: 58 50 43;
+  --color-text-muted: 107 95 81;
+  --color-accent: 107 31 31;
+  --color-accent-contrast: 239 228 203;
+  --color-border: 29 25 22;
+  --color-link: 29 25 22;
+  --color-tag: 107 31 31;
+  --color-tag-secondary: 47 74 58;
+  --color-highlight: 200 144 23;
+  --color-burnt: 189 90 30;
+  --color-teal: 58 107 107;
+  --color-indigo: 42 58 107;
+  --color-brick: 139 58 47;
+  --color-brick-light: 163 74 61;
+
+  /* Typography */
+  --font-display: "Anton", Impact, sans-serif;
+  --font-slab: "Alfa Slab One", Georgia, serif;
+  --font-cond: "Oswald", sans-serif;
+  --font-sans: "Work Sans", system-ui, sans-serif;
+
+  /* Layout */
+  --max-width-content: 72rem;
+  --max-width-prose: 48rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-nav: 300ms;
+}

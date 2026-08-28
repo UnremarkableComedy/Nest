@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Local env / secrets
+.env
+.env.*
+.dev.vars
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+*.local

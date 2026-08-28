@@ -1,0 +1,59 @@
+{
+  "name": "Dylan Mercer",
+  "firstName": "Dylan",
+  "lastName": "Mercer",
+  "tagline": "Stand-Up Comedian",
+  "email": "",
+  "siteUrl": "https://tennessee.standupwebco.com",
+  "seo": {
+    "title": "Dylan Mercer — Stand-Up Comedian",
+    "description": "Dylan Mercer — stand-up comedian. Tour dates, videos, and booking."
+  },
+  "images": {
+    "headshot": {
+      "src": "/uploads/headshots/hero.jpg",
+      "alt": "Portrait of Dylan Mercer"
+    },
+    "about": {
+      "src": "/uploads/headshots/about.jpg",
+      "alt": "Dylan Mercer performing on stage"
+    }
+  },
+  "social": {
+    "instagram": "https://instagram.com/dylanmercer",
+    "facebook": "https://facebook.com/dylanmercer",
+    "x": "https://x.com/dylanmercer",
+    "threads": "https://threads.net/@dylanmercer",
+    "youtube": "https://youtube.com/@dylanmercer",
+    "tiktok": "https://tiktok.com/@dylanmercer"
+  },
+  "sections": {
+    "hero": {
+      "followLabel": "Follow"
+    },
+    "about": {
+      "eyebrow": "About",
+      "headline": "The Comedian",
+      "photoCaption": "Photograph — 2025",
+      "pullQuote": "A comedian with a craftsman's patience.",
+      "pullQuoteAttribution": "— Comedy Review Quarterly"
+    },
+    "shows": {
+      "eyebrow": "Schedule",
+      "headline": "Upcoming Shows",
+      "moreDates": "More Dates To Be Announced"
+    },
+    "videos": {
+      "eyebrow": "Video",
+      "headline": "Watch",
+      "featuredLabel": "Featured",
+      "moreLabel": "More"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "headline": "Get In Touch",
+      "blurb": "For bookings, press inquiries, and general messages.",
+      "success": "Thank you — your message has been sent."
+    }
+  }
+}

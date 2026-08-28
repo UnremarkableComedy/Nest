@@ -1,0 +1,94 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-text));
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Subtle paper grain — a single layered noise, kept very faint */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+  }
+
+  ::selection {
+    background: rgb(var(--color-accent));
+    color: rgb(var(--color-accent-contrast));
+  }
+}
+
+@layer components {
+  /* Heavy letterpress-style double-rule border */
+  .press-border {
+    border: 3px solid rgb(var(--color-border));
+    box-shadow:
+      0 0 0 1px rgb(var(--color-border)) inset,
+      0 0 0 6px rgb(var(--color-background)) inset,
+      0 0 0 8px rgb(var(--color-border)) inset;
+  }
+
+  .press-border-thin {
+    border: 2px solid rgb(var(--color-border));
+    box-shadow:
+      0 0 0 4px rgb(var(--color-background)) inset,
+      0 0 0 6px rgb(var(--color-border)) inset;
+  }
+
+  /* Label / eyebrow text */
+  .label {
+    font-family: var(--font-cond);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+  }
+
+  .display {
+    font-family: var(--font-display);
+    line-height: 0.82;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  .slab {
+    font-family: var(--font-slab);
+    line-height: 0.9;
+    text-transform: uppercase;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Slight rotational imperfection for print feel */
+  .tilt-l {
+    transform: rotate(-1.5deg);
+  }
+  .tilt-r {
+    transform: rotate(1.5deg);
+  }
+  .tilt-slight-l {
+    transform: rotate(-0.6deg);
+  }
+  .tilt-slight-r {
+    transform: rotate(0.6deg);
+  }
+}
