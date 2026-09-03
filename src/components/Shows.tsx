@@ -38,18 +38,16 @@ export function Shows() {
                 }`}
               >
                 <div className="flex items-center gap-3 sm:gap-5">
-                  <div className="w-14 shrink-0 sm:w-16">
-                    <div className="flex flex-col items-center border-r-2 border-ink pr-3 sm:pr-5">
-                      <span className="label text-[0.6rem] text-ink-mute">
-                        {getDayOfWeek(show.date)}
-                      </span>
-                      <span className="display w-full text-center text-4xl leading-none text-ink tabular-nums sm:text-5xl">
-                        {getDateDay(show.date)}
-                      </span>
-                      <span className="label text-[0.6rem] text-ink-mute">
-                        {getDateMonth(show.date)}
-                      </span>
-                    </div>
+                  <div className="flex w-[4.75rem] shrink-0 flex-col items-center border-r-2 border-ink sm:w-24">
+                    <span className="label w-full text-center text-[0.6rem] text-ink-mute [text-indent:0.3em]">
+                      {getDayOfWeek(show.date)}
+                    </span>
+                    <span className="display w-full text-center text-4xl leading-none text-ink tabular-nums sm:text-5xl">
+                      {getDateDay(show.date)}
+                    </span>
+                    <span className="label w-full text-center text-[0.6rem] text-ink-mute [text-indent:0.3em]">
+                      {getDateMonth(show.date)}
+                    </span>
                   </div>
 
                   <div className="min-w-0 flex-1">
@@ -66,7 +64,7 @@ export function Shows() {
                       ) : null}
                     </p>
                     {show.detail && (
-                      <p className="label mt-1 text-[0.55rem] text-ink-mute">{show.detail}</p>
+                      <p className="mt-2 text-sm text-ink-soft sm:text-base">{show.detail}</p>
                     )}
                   </div>
 

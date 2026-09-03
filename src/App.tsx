@@ -16,7 +16,8 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="site-shell">
+      <div className="paper-grain paper-grain-multiply" aria-hidden="true" />
       <Nav />
       <main>
         <Hero />
@@ -26,7 +27,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

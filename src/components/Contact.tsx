@@ -132,7 +132,8 @@ export function Contact() {
   const formDisabled = !turnstileConfigured || status === 'submitting';
 
   return (
-    <section id="contact" className="bg-ink py-20 text-paper sm:py-28">
+    <section id="contact" className="relative z-[41] overflow-hidden bg-ink py-20 text-paper sm:py-28">
+      <div className="paper-grain paper-grain-screen" aria-hidden="true" />
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <div className="flex flex-col items-center text-center">
           <span className="label text-xs text-paper/50">{copy.eyebrow}</span>

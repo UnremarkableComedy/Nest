@@ -14,9 +14,9 @@ export function About() {
         <div className="mt-14 grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-12">
           <div className="order-2 md:order-1 md:col-span-7 md:text-right">
             <div className="flex items-center gap-3 md:justify-end">
-              <span className="slab text-2xl text-oxblood">{site.firstName}</span>
+              <span className="slab text-4xl text-oxblood sm:text-5xl">{site.firstName}</span>
               {site.lastName ? (
-                <span className="slab text-2xl text-ink">{site.lastName}</span>
+                <span className="slab text-4xl text-ink sm:text-5xl">{site.lastName}</span>
               ) : null}
             </div>
 
