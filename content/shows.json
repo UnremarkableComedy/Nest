@@ -5,8 +5,9 @@
     "time": "8:00 PM",
     "city": "Wichita",
     "state": "KS",
-    "venue": "Next Stop Comedy",
-    "ticketUrl": "https://www.nextstopcomedy.com/events/artichoke-sandwichbar-east-2026-10-24"
+    "venue": "Artichoke Sandwichbar East",
+    "ticketUrl": "https://www.nextstopcomedy.com/events/artichoke-sandwichbar-east-2026-10-24",
+    "detail": "Next Stop Comedy"
   },
   {
     "date": "2026-09-11",
