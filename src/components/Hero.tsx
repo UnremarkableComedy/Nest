@@ -26,7 +26,8 @@ export function Hero() {
       const rect = media.getBoundingClientRect();
       const viewH = window.innerHeight || 1;
       const progress = (viewH / 2 - (rect.top + rect.height / 2)) / viewH;
-      const shift = progress * 48;
+      // Only shift up from rest so the top of the photo stays in frame.
+      const shift = Math.max(-48, Math.min(0, -progress * 48));
       img.style.transform = `translate3d(0, ${shift}px, 0) scale(1.12)`;
     };
 
@@ -61,10 +62,12 @@ export function Hero() {
         </div>
 
         <h1 className="slab text-center leading-[0.78] text-ink">
-          <span className="block text-[18vw] sm:text-[15vw] md:text-[13rem]">{site.firstName}</span>
-          <span className="block -mt-2 text-[18vw] text-oxblood sm:text-[15vw] md:text-[13rem]">
-            {site.lastName}
-          </span>
+          <span className="block text-[18vw] text-oxblood sm:text-[15vw] md:text-[13rem]">{site.firstName}</span>
+          {site.lastName ? (
+            <span className="block -mt-2 text-[18vw] text-oxblood sm:text-[15vw] md:text-[13rem]">
+              {site.lastName}
+            </span>
+          ) : null}
         </h1>
       </div>
 
@@ -77,7 +80,7 @@ export function Hero() {
             ref={imgRef}
             src={headshot.src}
             alt={headshot.alt}
-            className="absolute left-0 top-[-12%] h-[124%] w-full object-cover object-center grayscale-[0.15] contrast-110 will-change-transform"
+            className="absolute left-0 top-0 h-[124%] w-full origin-top object-cover object-top grayscale-[0.15] contrast-110 will-change-transform"
             loading="eager"
           />
         </div>

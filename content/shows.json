@@ -1,61 +1,10 @@
 [
   {
-    "id": "show-austin-2026-09-12",
-    "date": "2026-09-12",
-    "time": "8:00 PM",
-    "city": "Austin",
-    "state": "TX",
-    "venue": "The Creek & Cave",
-    "ticketUrl": "https://example.com/tickets/austin",
-    "status": "Low Tickets",
-    "detail": "Two sets, 18+"
-  },
-  {
-    "id": "show-nashville-2026-09-19",
-    "date": "2026-09-19",
-    "time": "7:30 PM",
-    "city": "Nashville",
-    "state": "TN",
-    "venue": "The East Room",
-    "ticketUrl": "https://example.com/tickets/nashville"
-  },
-  {
-    "id": "show-asheville-2026-09-26",
-    "date": "2026-09-26",
-    "time": "9:00 PM",
-    "city": "Asheville",
-    "state": "NC",
-    "venue": "The Grey Eagle",
-    "ticketUrl": "https://example.com/tickets/asheville",
-    "status": "Added Show"
-  },
-  {
-    "id": "show-atlanta-2026-10-03",
-    "date": "2026-10-03",
-    "time": "8:00 PM",
-    "city": "Atlanta",
-    "state": "GA",
-    "venue": "The Earl",
-    "ticketUrl": "https://example.com/tickets/atlanta",
-    "status": "Sold Out"
-  },
-  {
-    "id": "show-charleston-2026-10-10",
-    "date": "2026-10-10",
-    "time": "7:00 PM",
-    "city": "Charleston",
-    "state": "SC",
-    "venue": "The Music Farm",
-    "ticketUrl": "https://example.com/tickets/charleston"
-  },
-  {
-    "id": "show-neworleans-2026-10-17",
-    "date": "2026-10-17",
-    "time": "8:30 PM",
-    "city": "New Orleans",
-    "state": "LA",
-    "venue": "Hi-Ho Lounge",
-    "ticketUrl": "https://example.com/tickets/neworleans",
-    "detail": "Late show"
+    "id": "show-wichita-next-stop-2026-10-24",
+    "date": "2026-10-24",
+    "time": "",
+    "city": "Wichita",
+    "state": "KS",
+    "venue": "Next Stop Comedy"
   }
 ]

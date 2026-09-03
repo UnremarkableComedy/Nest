@@ -1,28 +1,19 @@
 {
   "featured": {
-    "id": "video-featured-set",
-    "title": "Dylan Mercer — Featured Set",
-    "youtubeUrl": "https://youtu.be/UdAXs_dcKvI?si=eFMd0J7CnlguUIlE",
-    "description": "The Creek & Cave · 2025"
+    "id": "video-1",
+    "title": "Video 1",
+    "youtubeUrl": "https://youtu.be/L9iGxxaIrmA"
   },
   "additional": [
     {
-      "id": "video-late-night",
-      "title": "Late Night Set",
-      "youtubeUrl": "https://youtu.be/xXCfINtfuTk?si=CTcrTqaAZ-a9h__p",
-      "description": "Hi-Ho Lounge · 2025"
+      "id": "video-2",
+      "title": "Video 2",
+      "youtubeUrl": "https://youtube.com/shorts/Bu25dKgr6tY"
     },
     {
-      "id": "video-opening-night",
-      "title": "Opening Night",
-      "youtubeUrl": "https://youtu.be/i-cyy8AY4RM?si=aT1vuUIGSM36hP_9",
-      "description": "The East Room · 2024"
-    },
-    {
-      "id": "video-studio-session",
-      "title": "Studio Session",
-      "youtubeUrl": "https://youtu.be/OxmiSRD0ZqU?si=VfWfU-q95RV2ZSSZ",
-      "description": "The Grey Eagle · 2024"
+      "id": "video-3",
+      "title": "Video 3",
+      "youtubeUrl": "https://youtube.com/shorts/1WtzyC-Z9zQ"
     }
   ]
 }

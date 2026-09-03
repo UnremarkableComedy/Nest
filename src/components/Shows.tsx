@@ -58,8 +58,12 @@ export function Shows() {
                     </h3>
                     <p className="mt-1 text-xs text-ink-soft sm:text-sm">
                       {show.city}, {show.state}
-                      <span className="mx-2 text-ink-mute">·</span>
-                      {show.time}
+                      {show.time ? (
+                        <>
+                          <span className="mx-2 text-ink-mute">·</span>
+                          {show.time}
+                        </>
+                      ) : null}
                     </p>
                     {show.detail && (
                       <p className="label mt-1 text-[0.55rem] text-ink-mute">{show.detail}</p>

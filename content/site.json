@@ -1,31 +1,29 @@
 {
-  "name": "Dylan Mercer",
-  "firstName": "Dylan",
-  "lastName": "Mercer",
+  "name": "Goose",
+  "firstName": "Goose",
+  "lastName": "",
   "tagline": "Stand-Up Comedian",
-  "email": "",
-  "siteUrl": "https://tennessee.standupwebco.com",
+  "email": "goosecomedian@gmail.com",
+  "siteUrl": "https://goosecomedy.com",
   "seo": {
-    "title": "Dylan Mercer — Stand-Up Comedian",
-    "description": "Dylan Mercer — stand-up comedian. Tour dates, videos, and booking."
+    "title": "Goose — Stand-Up Comedian",
+    "description": "Goose — stand-up comedian. Tour dates, videos, and booking."
   },
   "images": {
     "headshot": {
       "src": "/uploads/headshots/hero.jpg",
-      "alt": "Portrait of Dylan Mercer"
+      "alt": "Goose performing on stage"
     },
     "about": {
       "src": "/uploads/headshots/about.jpg",
-      "alt": "Dylan Mercer performing on stage"
+      "alt": "Goose performing on stage"
     }
   },
   "social": {
-    "instagram": "https://instagram.com/dylanmercer",
-    "facebook": "https://facebook.com/dylanmercer",
-    "x": "https://x.com/dylanmercer",
-    "threads": "https://threads.net/@dylanmercer",
-    "youtube": "https://youtube.com/@dylanmercer",
-    "tiktok": "https://tiktok.com/@dylanmercer"
+    "instagram": "https://www.instagram.com/ganso_gazpacho",
+    "facebook": "https://www.facebook.com/share/1Bm2oCyJo7/",
+    "youtube": "https://youtube.com/@unremarkable.",
+    "tiktok": "https://www.tiktok.com/@ganso_gazpacho"
   },
   "sections": {
     "hero": {
@@ -34,9 +32,7 @@
     "about": {
       "eyebrow": "About",
       "headline": "The Comedian",
-      "photoCaption": "Photograph — 2025",
-      "pullQuote": "A comedian with a craftsman's patience.",
-      "pullQuoteAttribution": "— Comedy Review Quarterly"
+      "photoCaption": "Photograph — 2025"
     },
     "shows": {
       "eyebrow": "Schedule",
