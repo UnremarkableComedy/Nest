@@ -1,10 +1,8 @@
 {
   "name": "Goose",
   "firstName": "Goose",
-  "lastName": "",
   "tagline": "Stand-Up Comedian",
   "email": "goosecomedian@gmail.com",
-  "siteUrl": "https://goosecomedy.com",
   "seo": {
     "title": "Goose — Stand-Up Comedian",
     "description": "Goose — stand-up comedian. Tour dates, videos, and booking."
@@ -31,8 +29,7 @@
     },
     "about": {
       "eyebrow": "About",
-      "headline": "The Comedian",
-      "photoCaption": "Photograph — 2025"
+      "headline": "The Comedian"
     },
     "shows": {
       "eyebrow": "Schedule",
