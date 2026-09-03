@@ -28,7 +28,6 @@ content:
       - name: lastName
         label: Last Name
         type: string
-        required: true
 
       - name: tagline
         label: Tagline
