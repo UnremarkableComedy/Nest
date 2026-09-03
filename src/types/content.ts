@@ -16,7 +16,7 @@ export type SiteImage = {
 export type SiteContent = {
   name: string;
   firstName: string;
-  lastName: string;
+  lastName?: string;
   tagline: string;
   email: string;
   /** Production origin for absolute share URLs (not CMS-editable). */

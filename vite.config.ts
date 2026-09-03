@@ -6,7 +6,7 @@ import { fileURLToPath, URL } from 'node:url';
 const SHARE_IMAGE_PATH = '/og-share.jpg';
 
 type SiteSeo = {
-  siteUrl: string;
+  siteUrl?: string;
   seo: {
     title: string;
     description: string;
@@ -18,13 +18,15 @@ type SiteSeo = {
   };
 };
 
+const FALLBACK_SITE_URL = 'https://goosecomedy.com';
+
 function loadSiteSeo(): SiteSeo {
   const sitePath = fileURLToPath(new URL('./content/site.json', import.meta.url));
   return JSON.parse(readFileSync(sitePath, 'utf-8')) as SiteSeo;
 }
 
-function originFromSiteUrl(siteUrl: string): string {
-  return siteUrl.replace(/\/+$/, '');
+function originFromSiteUrl(siteUrl: string | undefined): string {
+  return (siteUrl || FALLBACK_SITE_URL).replace(/\/+$/, '');
 }
 
 function injectSeoFromContent() {

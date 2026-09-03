@@ -9,7 +9,11 @@ import type {
   VideosContent,
 } from '@/types/content';
 
-export const site = siteJson as SiteContent;
+export const site = {
+  lastName: '',
+  siteUrl: 'https://goosecomedy.com',
+  ...(siteJson as SiteContent),
+} as SiteContent;
 
 export const bio: string[] = bioRaw
   .trim()

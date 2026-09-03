@@ -38,6 +38,12 @@ content:
         type: string
         description: Optional public-facing email for the site. Contact form delivery uses server environment variables, not this field.
 
+      - name: siteUrl
+        label: Site URL
+        type: string
+        hidden: true
+        description: Production origin for share URLs. Kept in the file so CMS saves do not strip it.
+
       - name: seo
         label: SEO
         type: object
