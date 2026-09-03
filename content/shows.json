@@ -2,9 +2,18 @@
   {
     "id": "show-wichita-next-stop-2026-10-24",
     "date": "2026-10-24",
-    "time": "",
+    "time": "8:00 PM",
     "city": "Wichita",
     "state": "KS",
-    "venue": "Next Stop Comedy"
+    "venue": "Next Stop Comedy",
+    "ticketUrl": "https://www.nextstopcomedy.com/events/artichoke-sandwichbar-east-2026-10-24"
+  },
+  {
+    "date": "2026-09-11",
+    "time": "7:00 PM",
+    "city": "Wichita",
+    "state": "KS",
+    "venue": "Barleycorn's",
+    "detail": "Hey Buddy Comedy"
   }
 ]
