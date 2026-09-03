@@ -1,18 +1,18 @@
 {
   "featured": {
     "id": "video-1",
-    "title": "Video 1",
+    "title": "Unremarkable Podcast Trailer",
     "youtubeUrl": "https://youtu.be/L9iGxxaIrmA"
   },
   "additional": [
     {
       "id": "video-2",
-      "title": "Video 2",
+      "title": "You can't say that!",
       "youtubeUrl": "https://youtube.com/shorts/Bu25dKgr6tY"
     },
     {
       "id": "video-3",
-      "title": "Video 3",
+      "title": "DismalWorld",
       "youtubeUrl": "https://youtube.com/shorts/1WtzyC-Z9zQ"
     }
   ]
