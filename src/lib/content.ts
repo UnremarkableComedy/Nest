@@ -21,9 +21,17 @@ export const bio: string[] = bioRaw
   .map((p) => p.replace(/\n/g, ' ').trim())
   .filter(Boolean);
 
-export const shows: Show[] = [...(showsJson as Show[])].sort((a, b) =>
-  a.date.localeCompare(b.date)
-);
+function todayIsoUtc(): string {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(now.getUTCDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+export const shows: Show[] = [...(showsJson as Show[])]
+  .filter((show) => show.date >= todayIsoUtc())
+  .sort((a, b) => a.date.localeCompare(b.date));
 
 export const videos = videosJson as VideosContent;
 

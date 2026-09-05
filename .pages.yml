@@ -240,6 +240,7 @@ content:
         label: Date
         type: date
         required: true
+        description: The site lists shows in chronological order, soonest first. Dates that have already passed are not displayed.
         options:
           format: yyyy-MM-dd
 
