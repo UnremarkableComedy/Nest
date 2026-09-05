@@ -11,7 +11,7 @@ import type {
 
 export const site = {
   lastName: '',
-  siteUrl: 'https://goosecomedy.com',
+  siteUrl: 'https://gandercomedy.com',
   ...(siteJson as SiteContent),
 } as SiteContent;
 

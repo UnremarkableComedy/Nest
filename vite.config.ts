@@ -18,7 +18,7 @@ type SiteSeo = {
   };
 };
 
-const FALLBACK_SITE_URL = 'https://goosecomedy.com';
+const FALLBACK_SITE_URL = 'https://gandercomedy.com';
 
 function loadSiteSeo(): SiteSeo {
   const sitePath = fileURLToPath(new URL('./content/site.json', import.meta.url));
